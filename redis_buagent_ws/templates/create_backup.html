@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{%block content %}
+    <form action="submit_backup"> 
+    User:<br /> 
+    <input type="text" name="user"><br /> 
+    Target:<br /> 
+    <input type="text" name="target"><br /> 
+    Key:<br /> 
+    <input type="text" name="key"><br /> 
+    Container:<br /> 
+    <input type="text" name="container"><br /> 
+    <input type="submit" value="submit"> 
+    <br />                                                                          <form/> 
+        {% endblock %}
